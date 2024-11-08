@@ -1,0 +1,43 @@
+body {
+    background-image: url(Police\ Back.jpg);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.btn-Catalog{
+    width: 100%;
+    padding: 5rem 5% 1rem;
+}
+
+.btn-Catalog a{
+    font-size: 30px;
+    display: flex;
+    white-space: 50px;
+    justify-content: center;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    border-radius: 4rem;
+    font-size: 2rem;
+    font-weight: 800;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+ 
+ }
+ 
+ .btn-Catalog a:nth-of-type(1){
+     background-color: rgba(0, 0, 0, 0.185);
+     color: rgb(192, 35, 35);
+     border: 0.5px solid var(--main-color);
+    
+  
+ }
+ 
+ .btn-Catalog a:hover{
+     box-shadow: 0 0 30px var(--main-color);
+     background-color: var(--main-color);
+     color: black;
+ }
+ 
